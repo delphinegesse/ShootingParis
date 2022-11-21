@@ -1,4 +1,3 @@
-import {ShootingLocation} from "./ShootingLocation";
 
 export class ShootingLocationList {
     listShootingLocation: ShootingLocation[] = []
@@ -9,8 +8,8 @@ export class ShootingLocationList {
         } // TITLE ???
     }
 
-    getShootingLocation(name: string): ShootingLocation {
-        return <ShootingLocation>this.listShootingLocation.find(shootingLocation => shootingLocation.title === name);
+    getShootingLocation(id: string): ShootingLocation {
+        return <ShootingLocation>this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id);
     }
 
     getShootingLocationAt(address: string): ShootingLocation[] {

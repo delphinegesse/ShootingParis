@@ -1,4 +1,3 @@
-import {ShootingLocation} from "./ShootingLocation";
 import {ShootingLocationList} from "./ShootingLocationList";
 
 describe('ShootingLocationList', () => {
@@ -25,7 +24,7 @@ describe('ShootingLocationList', () => {
     it('should store a location', () => {
         location.addShootingLocation(CigareAuMiel);
 
-        expect(location.getShootingLocation('CIGAREAUMIEL')).toEqual(CigareAuMiel);
+        expect(location.getShootingLocation('2019-1712')).toEqual(CigareAuMiel);
     });
 
     it('should return all locations', () => {
