@@ -25,9 +25,7 @@ describe('ShootingLocationList', () => {
     it('should store a location', () => {
         location.addShootingLocation(CigareAuMiel);
 
-        expect(location.getShootingLocation('CIGAREAUMIEL')).toEqual(
-            CigareAuMiel,
-        );
+        expect(location.getShootingLocation('CIGAREAUMIEL')).toEqual(CigareAuMiel);
     });
 
     it('should return all locations', () => {
