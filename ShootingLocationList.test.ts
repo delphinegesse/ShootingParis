@@ -2,10 +2,18 @@ import {ShootingLocation} from "./ShootingLocation";
 import {ShootingLocationList} from "./ShootingLocationList";
 
 describe('ShootingLocationList', () => {
-    const theLordOfTheRings: ShootingLocation = {
-        title: 'The Lord of the Rings',
-        author: 'J. R. R. Tolkien',
-        date: '1954-02-15',
+    const CigareAuMiel: ShootingLocation = {
+        locationId: '2019-1712',
+        shootingDate: new Date(2019),
+        shootingType: 'Long métrage',
+        title: 'CIGARE AU MIEL',
+        director: 'Madame KAMIR AÏNOUZ',
+        producer: 'ELIPH PRODUCTIONS',
+        address: '7 rue de berri, 75008 paris',
+        postalCode: '75008',
+        startDate: new Date(2019,12,12),
+        endDate: new Date(2019,12,12),
+        geoLocation: [48.87219487147879,2.303550627818585]
     };
 
     let location: ShootingLocationList;
@@ -14,23 +22,19 @@ describe('ShootingLocationList', () => {
         location = new ShootingLocationList();
     });
 
-    it('should store a book', () => {
-        bookshelf.addShootingLocation(aLaRechercheDuTempsPerdu);
+    it('should store a location', () => {
+        location.addShootingLocation(CigareAuMiel);
 
-        expect(bookshelf.getShootingLocation('À la recherche du temps perdu')).toEqual(
-            aLaRechercheDuTempsPerdu,
+        expect(location.getShootingLocation('CIGAREAUMIEL')).toEqual(
+            CigareAuMiel,
         );
     });
 
-    it('should return all books ordered by `title` (ASC)', () => {
-        bookshelf.addShootingLocation(theLordOfTheRings);
-        bookshelf.addShootingLocation(theHobbit);
-        bookshelf.addShootingLocation(hamlet);
+    it('should return all locations', () => {
+        location.addShootingLocation(CigareAuMiel);
 
-        expect(bookshelf.getAllShootingLocations()).toEqual([
-            hamlet,
-            theHobbit,
-            theLordOfTheRings,
+        expect(location.getAllShootingLocations()).toEqual([
+            CigareAuMiel
         ]);
     });
 });
