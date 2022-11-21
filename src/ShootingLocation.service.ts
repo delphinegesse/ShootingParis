@@ -12,6 +12,10 @@ export class ShootingLocationService {
         return <ShootingLocation>this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id);
     }
 
+    getShootingLocationAt(address: string): ShootingLocation[] {
+        return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.address === address);
+    }//d'une adresse
+
     getShootingLocationsFrom(title: string): ShootingLocation[] {
         return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.title === title);
     }//d'un film
@@ -24,5 +28,9 @@ export class ShootingLocationService {
 
     getTotalNumberOfLocations(): number {
         return this.listShootingLocation.length;
+    }
+
+    removeShootingLocation(locationId: string) {
+        this.listShootingLocation = this.listShootingLocation.filter((shootingLocation) => shootingLocation.locationId !== locationId);
     }
 }
