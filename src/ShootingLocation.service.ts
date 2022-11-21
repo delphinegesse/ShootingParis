@@ -1,5 +1,5 @@
 
-export class ShootingLocationList {
+export class ShootingLocationService {
     listShootingLocation: ShootingLocation[] = []
 
     addShootingLocation(shootingLocation: ShootingLocation): void {

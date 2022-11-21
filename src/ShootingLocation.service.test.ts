@@ -1,4 +1,4 @@
-import {ShootingLocationList} from "./ShootingLocationList";
+import {ShootingLocationService} from "./ShootingLocation.service";
 
 describe('ShootingLocationList', () => {
     const CigareAuMiel: ShootingLocation = {
@@ -28,10 +28,10 @@ describe('ShootingLocationList', () => {
         geoLocation: [48.87219487147879,2.303550627818585]
     };
 
-    let location: ShootingLocationList;
+    let location: ShootingLocationService;
 
     beforeEach(() => {
-        location = new ShootingLocationList();
+        location = new ShootingLocationService();
     });
 
     it('should store a location', () => {
