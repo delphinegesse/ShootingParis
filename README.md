@@ -8,6 +8,6 @@ This is the web part of the project.
 ## Resources
 
 We used the data that can be found on the following link:
-https://opendata.paris.fr/explore/embed/dataset/lieux-de-tournage-a-paris/table/?disjunctive.type_tournage&disjunctive.nom_tournage&disjunctive.nom_realisateur&disjunctive.nom_producteur&disjunctive.ardt_lieu
+https://opendata.paris.fr/explore/dataset/lieux-de-tournage-a-paris/information/?disjunctive.type_tournage&disjunctive.nom_tournage&disjunctive.nom_realisateur&disjunctive.nom_producteur&disjunctive.ardt_lieu
 
 ## Goal
