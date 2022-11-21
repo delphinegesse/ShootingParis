@@ -45,8 +45,8 @@ describe('ShootingLocationList', () => {
         location.addShootingLocation(JoursMax);
 
         expect(location.getAllShootingLocations()).toEqual([
-            CigareAuMiel,
-            JoursMax
+            JoursMax,
+            CigareAuMiel
         ]);
     });
 

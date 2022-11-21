@@ -3,9 +3,9 @@ export class ShootingLocationList {
     listShootingLocation: ShootingLocation[] = []
 
     addShootingLocation(shootingLocation: ShootingLocation): void {
-        if (!this.listShootingLocation.find((element: ShootingLocation) => element.title)) {
+        if (!this.listShootingLocation.some((element) => shootingLocation.locationId === element.locationId)) {
             this.listShootingLocation.push(shootingLocation)
-        } // TITLE ???
+        }
     }
 
     getShootingLocation(id: string): ShootingLocation {
@@ -13,7 +13,7 @@ export class ShootingLocationList {
     }
 
     getShootingLocationsFrom(title: string): ShootingLocation[] {
-        return this.getAllShootingLocations().filter(book => book.title === title);
+        return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.title === title);
     }//d'un film
 
     getAllShootingLocations(): ShootingLocation[] {
