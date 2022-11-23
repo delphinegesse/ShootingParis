@@ -1,9 +1,10 @@
 import { IsNotEmpty, IsString } from 'class-validator';
 
+
 export class ShootingLocationDto {
     @IsNotEmpty()
     @IsString()
-    readonly locationId: string;
+    readonly locationId: string
 
     @IsNotEmpty()
     @IsString()
