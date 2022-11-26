@@ -17,7 +17,9 @@ export class ShootingLocationService {
     }//d'une adresse
 
     getShootingLocationsFrom(title: string): ShootingLocation[] {
-        return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.title === title);
+        return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.title === title).sort((a:ShootingLocation , b:ShootingLocation) => {
+            return a.locationId.localeCompare(b.locationId);
+        });
     }//d'un film
 
     getAllShootingLocations(): ShootingLocation[] {
