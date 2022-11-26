@@ -1,4 +1,4 @@
-import {Body,Controller, Delete, Get, HttpCode, Param, Post, Query,} from '@nestjs/common';
+import {Body,Controller, Delete, Get, Param, Post} from '@nestjs/common';
 import {ShootingLocationService} from "./ShootingLocation.service";
 import {ShootingLocationDto} from "./ShootingLocation.dto";
 
@@ -16,12 +16,18 @@ export class ShootingLocationController {
 
     @Get(':address')
     getShootingLocationByAddress(@Param('address') address: string): ShootingLocation[] {
+        if(address===undefined){
+            return this.shootingLocationService.getAllShootingLocations();
+        }
         return this.shootingLocationService.getShootingLocationAt(address);
     }
 
     @Get(':title')
-    getShootingLocationByMovie(@Param('title') address: string): ShootingLocation[] {
-        return this.shootingLocationService.getShootingLocationsFrom(address);
+    getShootingLocationByMovie(@Param('title') title: string): ShootingLocation[] {
+        if(title===undefined){
+            return this.shootingLocationService.getAllShootingLocations();
+        }
+        return this.shootingLocationService.getShootingLocationsFrom(title);
     }
 
     @Delete(':title')
