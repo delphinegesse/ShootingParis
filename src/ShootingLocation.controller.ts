@@ -14,6 +14,11 @@ export class ShootingLocationController {
         return this.shootingLocationService.getShootingLocation(shootingLocationToCreate.locationId);
     }
 
+    @Get(':locationid')
+    getShootingLocationByID(@Param('locationid') locationid: string): ShootingLocation {
+        return this.shootingLocationService.getShootingLocation(locationid);
+    }
+
     @Get(':address')
     getShootingLocationByAddress(@Param('address') address: string): ShootingLocation[] {
         if(address===undefined){
