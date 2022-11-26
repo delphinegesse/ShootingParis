@@ -98,7 +98,16 @@ describe('ShootingLocationList', () => {
         location.addShootingLocation(CigareAuMielCOPIE);
         location.addShootingLocation(JoursMax);
 
-        location.removeShootingLocation('2019-1713')
+        // Removing CigareAuMielCOPIE
+        location.removeShootingLocation('2019-1713');
+
+        expect(location.getAllShootingLocations()).toEqual([JoursMax,CigareAuMiel]);
+    });
+
+    it('should not allow two identical locations (same id) to be added', () => {
+        location.addShootingLocation(CigareAuMiel);
+        location.addShootingLocation(JoursMax);
+        location.addShootingLocation(CigareAuMiel);
 
         expect(location.getAllShootingLocations()).toEqual([JoursMax,CigareAuMiel]);
     });
