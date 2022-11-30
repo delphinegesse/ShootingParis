@@ -35,14 +35,6 @@ export class ShootingLocationDto {
     readonly postalCode: string
 
     @IsNotEmpty()
-    @IsDate()
-    readonly startDate: Date
-
-    @IsNotEmpty()
-    @IsDate()
-    readonly endDate: Date
-
-    @IsNotEmpty()
     @IsArray()
     readonly geoLocation: Array<number>
 }
