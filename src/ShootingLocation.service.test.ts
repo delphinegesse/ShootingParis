@@ -10,8 +10,6 @@ describe('ShootingLocationList', () => {
         producer: 'ELIPH PRODUCTIONS',
         address: '7 rue de berri, 75008 paris',
         postalCode: '75008',
-        startDate: new Date(2019,12,12),
-        endDate: new Date(2019,12,12),
         geoLocation: [48.87219487147879,2.303550627818585]
  //       favourite: false
     };
@@ -24,8 +22,6 @@ describe('ShootingLocationList', () => {
         producer: 'AXEL FILMS PRODUCTION',
         address: 'rue rené clair, 75018 paris',
         postalCode: '75018',
-        startDate: new Date(2019,12,9),
-        endDate: new Date(2019,12,9),
         geoLocation: [48.87219487147879,2.303550627818585]
  //       favourite: false
     };
@@ -38,8 +34,6 @@ describe('ShootingLocationList', () => {
         producer: 'ELIPH PRODUCTIONS',
         address: '7 rue de berri, 75008 paris',
         postalCode: '75008',
-        startDate: new Date(2019,12,12),
-        endDate: new Date(2019,12,12),
         geoLocation: [48.87219487147879,2.303550627818585]
   //      favourite: false
     };
