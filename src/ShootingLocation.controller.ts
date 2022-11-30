@@ -39,9 +39,10 @@ export class ShootingLocationController {
     deleteShootingLocation(@Param('locationId') locationId: string): void {
         return this.shootingLocationService.removeShootingLocation(locationId);
     }
-
+/*
     @Put(':locationId')
     addToFavourite(@Param('locationId') locationId: string): void {
         return this.shootingLocationService.addToFavourite(locationId);
     }
+ */
 }
