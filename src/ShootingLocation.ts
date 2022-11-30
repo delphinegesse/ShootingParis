@@ -10,4 +10,5 @@ interface ShootingLocation {
     startDate: Date;
     endDate: Date;
     geoLocation: Array<number>;
+    favourite: boolean;
 }

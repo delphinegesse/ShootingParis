@@ -1,4 +1,4 @@
-import {Body,Controller, Delete, Get, Param, Post} from '@nestjs/common';
+import {Body, Controller, Delete, Get, Param, Post, Put} from '@nestjs/common';
 import {ShootingLocationService} from "./ShootingLocation.service";
 import {ShootingLocationDto} from "./ShootingLocation.dto";
 
@@ -35,8 +35,13 @@ export class ShootingLocationController {
         return this.shootingLocationService.getShootingLocationsFrom(title);
     }
 
-    @Delete(':title')
+    @Delete(':locationId')
     deleteShootingLocation(@Param('locationId') locationId: string): void {
         return this.shootingLocationService.removeShootingLocation(locationId);
+    }
+
+    @Put(':locationId')
+    addToFavourite(@Param('locationId') locationId: string): void {
+        return this.shootingLocationService.addToFavourite(locationId);
     }
 }
