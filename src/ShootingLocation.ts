@@ -7,8 +7,6 @@ interface ShootingLocation {
     producer: string;
     address: string;
     postalCode: string;
-    startDate: Date;
-    endDate: Date;
     geoLocation: Array<number>;
-    favourite: boolean;
+ //   favourite: boolean;
 }

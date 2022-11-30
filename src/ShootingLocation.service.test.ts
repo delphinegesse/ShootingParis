@@ -12,8 +12,8 @@ describe('ShootingLocationList', () => {
         postalCode: '75008',
         startDate: new Date(2019,12,12),
         endDate: new Date(2019,12,12),
-        geoLocation: [48.87219487147879,2.303550627818585],
-        favourite: false
+        geoLocation: [48.87219487147879,2.303550627818585]
+ //       favourite: false
     };
     const JoursMax: ShootingLocation = {
         locationId: '2019-1719',
@@ -26,8 +26,8 @@ describe('ShootingLocationList', () => {
         postalCode: '75018',
         startDate: new Date(2019,12,9),
         endDate: new Date(2019,12,9),
-        geoLocation: [48.87219487147879,2.303550627818585],
-        favourite: false
+        geoLocation: [48.87219487147879,2.303550627818585]
+ //       favourite: false
     };
     const CigareAuMielCOPIE: ShootingLocation = {
         locationId: '2019-1713',
@@ -40,8 +40,8 @@ describe('ShootingLocationList', () => {
         postalCode: '75008',
         startDate: new Date(2019,12,12),
         endDate: new Date(2019,12,12),
-        geoLocation: [48.87219487147879,2.303550627818585],
-        favourite: false
+        geoLocation: [48.87219487147879,2.303550627818585]
+  //      favourite: false
     };
 
     let location: ShootingLocationService;
@@ -115,6 +115,7 @@ describe('ShootingLocationList', () => {
         expect(location.getAllShootingLocations()).toEqual([JoursMax,CigareAuMiel]);
     });
 
+    /*
     it('should create a location without adding it to favourites', () => {
         location.addShootingLocation(CigareAuMiel);
         expect(location.isFavourite('2019-1712')).toEqual(false);
@@ -132,4 +133,5 @@ describe('ShootingLocationList', () => {
         location.removeFromFavourite('2019-1712');
         expect(location.isFavourite('2019-1712')).toEqual(false);
     });
+     */
 });
