@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString } from 'class-validator';
+import {IsArray, IsDate, IsNotEmpty, IsString} from 'class-validator';
 
 
 export class ShootingLocationDto {
@@ -7,7 +7,7 @@ export class ShootingLocationDto {
     readonly locationId: string
 
     @IsNotEmpty()
-    @IsString()
+    @IsDate()
     readonly shootingDate: Date
 
     @IsNotEmpty()
@@ -35,14 +35,14 @@ export class ShootingLocationDto {
     readonly postalCode: string
 
     @IsNotEmpty()
-    @IsString()
+    @IsDate()
     readonly startDate: Date
 
     @IsNotEmpty()
-    @IsString()
+    @IsDate()
     readonly endDate: Date
 
     @IsNotEmpty()
-    @IsString()
+    @IsArray()
     readonly geoLocation: Array<number>
 }

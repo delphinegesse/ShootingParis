@@ -4,7 +4,8 @@ export class ShootingLocationService {
 
     addShootingLocation(shootingLocation: ShootingLocation): void {
         if (!this.listShootingLocation.some((element) => shootingLocation.locationId === element.locationId)) {
-            this.listShootingLocation.push(shootingLocation)
+            shootingLocation.favourite = false; // initialise to not favourite
+            this.listShootingLocation.push(shootingLocation);
         }
     }
 
@@ -34,5 +35,17 @@ export class ShootingLocationService {
 
     removeShootingLocation(locationId: string) {
         this.listShootingLocation = this.listShootingLocation.filter((shootingLocation) => shootingLocation.locationId !== locationId);
+    }
+
+    isFavourite(id: string) {
+        return this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id).favourite;
+    }
+
+    addToFavourite(id: string) {
+        this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id).favourite = true;
+    }
+
+    removeFromFavourite(id: string) {
+        this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id).favourite = false;
     }
 }
