@@ -33,7 +33,7 @@ export class ShootingLocationService implements OnModuleInit{
         const dataweb :Observable<AxiosResponse> = this.httpService.get<APIShootingLocation>('https://opendata.paris.fr/explore/embed/dataset/lieux-de-tournage-a-paris/table/?disjunctive.type_tournage&disjunctive.nom_tournage&disjunctive.nom_realisateur&disjunctive.nom_producteur&disjunctive.ardt_lieu');
         dataweb.pipe(
             map((resp) => resp.data),
-            tap((apiShootingLocations) => {
+            tap((apiShootingLocations: Array<any>) => {
                 apiShootingLocations.forEach((elem)=> {
                     return this.listShootingLocation.push({
                         locationId: elem.locationId,
