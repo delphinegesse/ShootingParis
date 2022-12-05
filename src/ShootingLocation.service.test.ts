@@ -41,7 +41,7 @@ describe('ShootingLocationList', () => {
     let location: ShootingLocationService;
 
     beforeEach(() => {
-        location = new ShootingLocationService();
+  //      location = new ShootingLocationService();
     });
 
     it('should store a location', () => {
