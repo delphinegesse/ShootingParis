@@ -30,7 +30,7 @@ export class ShootingLocationService implements OnModuleInit{
     }
 
     private async loadShootingLocationFromAPI(): Promise<void>{
-        const dataweb :Observable<AxiosResponse> = this.httpService.get<APIShootingLocation[]>('https://opendata.paris.fr/explore/embed/dataset/lieux-de-tournage-a-paris/table/?disjunctive.type_tournage&disjunctive.nom_tournage&disjunctive.nom_realisateur&disjunctive.nom_producteur&disjunctive.ardt_lieu');
+        const dataweb :Observable<AxiosResponse> = this.httpService.get<APIShootingLocation[]>('https://opendata.paris.fr/api/records/1.0/search/?dataset=lieux-de-tournage-a-paris&q=&facet=annee_tournage&facet=type_tournage&facet=nom_tournage&facet=nom_realisateur&facet=nom_producteur&facet=ardt_lieu&facet=date_debut&facet=date_fin');
         dataweb.pipe(
             map((resp) => resp.data),
             tap((APIShootingLocations) => {
