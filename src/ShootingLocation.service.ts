@@ -2,7 +2,6 @@ import {HttpService} from "@nestjs/axios";
 import {Injectable, OnModuleInit} from "@nestjs/common";
 import {map, Observable, tap} from "rxjs";
 import {AxiosResponse} from 'axios';
-import {ShootingLocationDto} from "./ShootingLocation.dto";
 import {readFile} from 'fs/promises';
 import {APIShootingLocation} from "./APIShootingLocation";
 
