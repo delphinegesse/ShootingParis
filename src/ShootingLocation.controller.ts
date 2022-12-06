@@ -9,18 +9,23 @@ export class ShootingLocationController {
     ) {}
 
     @Post()
-    createShootingLocation(@Body() shootingLocationToCreate: ShootingLocationDto): ShootingLocation {
+    createShootingLocation(@Body() shootingLocationToCreate: ShootingLocation): ShootingLocation {
         this.shootingLocationService.addShootingLocation(shootingLocationToCreate);
-        return this.shootingLocationService.getShootingLocation(shootingLocationToCreate.locationId);
+        return this.shootingLocationService.getShootingLocation(shootingLocationToCreate.id_lieu);
     }
 
     @Get()
     getAllShootingLocations(@Query('titre') titre: string, @Query('postalCode') postalCode: string ): ShootingLocation[]{
         if(titre){
+            console.log('hello from titre')
+
             return this.shootingLocationService.getShootingLocationsFrom(titre)
         }
         if(postalCode){
+            console.log('hello from postalCode')
+
             return this.shootingLocationService.getShootingLocationAt(postalCode)
+
         }
 
         console.log('hello')

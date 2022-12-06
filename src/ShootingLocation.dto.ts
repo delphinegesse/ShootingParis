@@ -4,37 +4,37 @@ import {IsArray, IsDate, IsNotEmpty, IsString} from 'class-validator';
 export class ShootingLocationDto {
     @IsNotEmpty()
     @IsString()
-    readonly locationId: string
+    readonly id_lieu: string
 
     @IsNotEmpty()
     @IsDate()
-    readonly shootingDate: Date
+    readonly date_debut: Date
 
     @IsNotEmpty()
     @IsString()
-    readonly shootingType: string
+    readonly type_tournage: string
 
     @IsNotEmpty()
     @IsString()
-    readonly title: string
+    readonly nom_tournage: string
 
     @IsNotEmpty()
     @IsString()
-    readonly director: string
+    readonly nom_realisateur: string
 
     @IsNotEmpty()
     @IsString()
-    readonly producer: string
+    readonly nom_producteur: string
 
     @IsNotEmpty()
     @IsString()
-    readonly address: string
+    readonly adresse_lieu: string
 
     @IsNotEmpty()
     @IsString()
-    readonly postalCode: string
+    readonly ardt_lieu: string
 
     @IsNotEmpty()
     @IsArray()
-    readonly geoLocation: Array<number>
+    readonly geo_point_2d: Array<number>
 }
