@@ -1,1 +1,253 @@
-[]
+[
+  {
+    "coord_y": 48.87219487,
+    "type_tournage": "Long métrage",
+    "nom_producteur": "ELIPH PRODUCTIONS",
+    "date_fin": "2019-12-12",
+    "geo_point_2d": [
+      48.87219487147879,
+      2.303550627818585
+    ],
+    "nom_tournage": "CIGARE AU MIEL",
+    "ardt_lieu": "75008",
+    "geo_shape": {
+      "coordinates": [
+        2.303550627818585,
+        48.87219487147879
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2019-1712",
+    "nom_realisateur": "Madame KAMIR AÏNOUZ",
+    "adresse_lieu": "7 rue de berri, 75008 paris",
+    "date_debut": "2019-12-12",
+    "annee_tournage": "2019",
+    "coord_x": 2.30355063
+  },
+  {
+    "coord_y": 48.89401073,
+    "type_tournage": "Long métrage",
+    "nom_producteur": "AXEL FILMS PRODUCTION",
+    "date_fin": "2019-12-09",
+    "geo_point_2d": [
+      48.89401072715022,
+      2.354120069589919
+    ],
+    "nom_tournage": "30 Jours Max",
+    "ardt_lieu": "75018",
+    "geo_shape": {
+      "coordinates": [
+        2.354120069589919,
+        48.89401072715022
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2019-1719",
+    "nom_realisateur": "Tarek BOUDALI",
+    "adresse_lieu": "rue rené clair, 75018 paris",
+    "date_debut": "2019-12-09",
+    "annee_tournage": "2019",
+    "coord_x": 2.35412007
+  },
+  {
+    "coord_y": 48.857298,
+    "type_tournage": "Série TV",
+    "nom_producteur": "KANZAMAN FRANCE",
+    "date_fin": "2016-12-11",
+    "geo_point_2d": [
+      48.85729799967261,
+      2.366075000665597
+    ],
+    "nom_tournage": "LIANG SHENG",
+    "ardt_lieu": "75003",
+    "geo_shape": {
+      "coordinates": [
+        2.366075000665597,
+        48.85729799967261
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2016-605",
+    "nom_realisateur": "LIU CHUN-CHIEN",
+    "adresse_lieu": "RUE  DU BEARN",
+    "date_debut": "2016-12-11",
+    "annee_tournage": "2016",
+    "coord_x": 2.366075
+  },
+  {
+
+    "coord_y": 48.853077,
+    "type_tournage": "Série TV",
+    "nom_producteur": "SON ET LUMIERE",
+    "date_fin": "2016-05-25",
+    "geo_point_2d": [
+      48.853076999848284,
+      2.407354000642449
+    ],
+    "nom_tournage": "ENGRENAGES/SAISON 6/N° 1 A 6",
+    "ardt_lieu": "75020",
+    "geo_shape": {
+      "coordinates": [
+        2.407354000642449,
+        48.853076999848284
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2016-610",
+    "nom_realisateur": "FREDERIC JARDIN",
+    "adresse_lieu": "1  RUE  FERDINAND GAMBON",
+    "date_debut": "2016-05-25",
+    "annee_tournage": "2016",
+    "coord_x": 2.4073539999999998
+  },
+  {
+    "coord_y": 48.883368,
+    "type_tournage": "Long métrage",
+    "nom_producteur": "ICI ET LA PRODUCTIONS",
+    "date_fin": "2016-05-13",
+    "geo_point_2d": [
+      48.88336799984105,
+      2.339612999826886
+    ],
+    "nom_tournage": "FLORA63",
+    "ardt_lieu": "75018",
+    "geo_shape": {
+      "coordinates": [
+        2.339612999826886,
+        48.88336799984105
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2016-617",
+    "nom_realisateur": "STEPHANE ROBELIN",
+    "adresse_lieu": "RUE  DES MARTYRS",
+    "date_debut": "2016-05-13",
+    "annee_tournage": "2016",
+    "coord_x": 2.339613
+  },
+  {
+    "coord_y": 48.870697,
+    "type_tournage": "Long métrage",
+    "nom_producteur": "PETIT FILM",
+    "date_fin": "2016-09-05",
+    "geo_point_2d": [
+      48.87069700026003,
+      2.350574000185725
+    ],
+    "nom_tournage": "DIANE A LES EPAULES",
+    "ardt_lieu": "75010",
+    "geo_shape": {
+      "coordinates": [
+        2.350574000185725,
+        48.87069700026003
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2016-620",
+    "nom_realisateur": "FABIEN GORGEART",
+    "adresse_lieu": "3  IMPASSE  BONNE NOUVELLE",
+    "date_debut": "2016-09-05",
+    "annee_tournage": "2016",
+    "coord_x": 2.350574
+  },
+  {
+    "coord_y": 48.847329,
+    "type_tournage": "Long métrage",
+    "nom_producteur": "LES PRODUCTIONS DU TRESOR",
+    "date_fin": "2016-02-18",
+    "geo_point_2d": [
+      48.84732899971317,
+      2.347565000650523
+    ],
+    "nom_tournage": "GC5",
+    "ardt_lieu": "75005",
+    "geo_shape": {
+      "coordinates": [
+        2.347565000650523,
+        48.84732899971317
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2016-638",
+    "nom_realisateur": "GUILLAUME CANET",
+    "adresse_lieu": "PLACE  LARUE",
+    "date_debut": "2016-02-18",
+    "annee_tournage": "2016",
+    "coord_x": 2.347565
+  },
+  {
+    "coord_y": 48.868113,
+    "type_tournage": "Long métrage",
+    "nom_producteur": "LES FILMS MANUEL MUNZ",
+    "date_fin": "2016-12-09",
+    "geo_point_2d": [
+      48.86811300034083,
+      2.329704999637536
+    ],
+    "nom_tournage": "CARBONE",
+    "ardt_lieu": "75001",
+    "geo_shape": {
+      "coordinates": [
+        2.329704999637536,
+        48.86811300034083
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2016-644",
+    "nom_realisateur": "OLIVIER MARCHAL",
+    "adresse_lieu": "PLACE  VENDOME",
+    "date_debut": "2016-12-09",
+    "annee_tournage": "2016",
+    "coord_x": 2.329705
+  },
+  {
+    "coord_y": 48.876556,
+    "type_tournage": "Long métrage",
+    "nom_producteur": "WY PRODUCTIONS",
+    "date_fin": "2016-03-10",
+    "geo_point_2d": [
+      48.87655600030569,
+      2.403746000196592
+    ],
+    "nom_tournage": "IRIS/EX CHAOS",
+    "ardt_lieu": "75019",
+    "geo_shape": {
+      "coordinates": [
+        2.403746000196592,
+        48.87655600030569
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2016-659",
+    "nom_realisateur": "JALIL LESPERT",
+    "adresse_lieu": "307 AU 317  RUE  DE BELLEVILLE",
+    "date_debut": "2016-03-10",
+    "annee_tournage": "2016",
+    "coord_x": 2.403746
+  },
+  {
+    "coord_y": 48.852279,
+    "type_tournage": "Série TV",
+    "nom_producteur": "FEDERATION ENTERTAINMENT",
+    "date_fin": "2016-03-30",
+    "geo_point_2d": [
+      48.852278999709455,
+      2.351269000165312
+    ],
+    "nom_tournage": "THE COLLECTION",
+    "ardt_lieu": "75004",
+    "geo_shape": {
+      "coordinates": [
+        2.351269000165312,
+        48.852278999709455
+      ],
+      "type": "Point"
+    },
+    "id_lieu": "2016-675",
+    "nom_realisateur": "DEARBHLA WALSH",
+    "adresse_lieu": "SQUARE  JEAN XXIII",
+    "date_debut": "2016-03-30",
+    "annee_tournage": "2016",
+    "coord_x": 2.351269
+  }
+]
