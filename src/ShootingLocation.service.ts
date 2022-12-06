@@ -31,6 +31,8 @@ export class ShootingLocationService implements OnModuleInit{
         catch(error){
             console.log('Err: ${error}');
         }
+        this.listShootingLocation.forEach(e => e.favourite = false)
+        console.log(this.listShootingLocation)
     }
 
     private async loadShootingLocationFromAPI(): Promise<void>{
@@ -58,7 +60,7 @@ export class ShootingLocationService implements OnModuleInit{
 
 
     addShootingLocation(shootingLocation: ShootingLocation): ShootingLocation {
-        if (!this.listShootingLocation.some((element) => shootingLocation.nom_tournage === element.nom_tournage)) {
+        if (!this.listShootingLocation.some((element) => shootingLocation.id_lieu === element.id_lieu)) {
   //          shootingLocation.favourite = false; // initialise to not favourite
             console.log(shootingLocation)
             this.listShootingLocation.push(shootingLocation);
@@ -93,17 +95,18 @@ export class ShootingLocationService implements OnModuleInit{
     removeShootingLocation(locationId: string) {
         this.listShootingLocation = this.listShootingLocation.filter((shootingLocation) => shootingLocation.id_lieu !== locationId);
     }
-/*
+
+
     isFavourite(id: string) {
-        return this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id).favourite;
+        return this.listShootingLocation.find(shootingLocation => shootingLocation.id_lieu === id).favourite;
     }
 
     addToFavourite(id: string) {
-        this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id).favourite = true;
+        this.listShootingLocation.find(shootingLocation => shootingLocation.id_lieu === id).favourite = true;
     }
 
     removeFromFavourite(id: string) {
-        this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id).favourite = false;
+        this.listShootingLocation.find(shootingLocation => shootingLocation.id_lieu === id).favourite = false;
     }
- */
+
 }

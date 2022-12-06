@@ -60,10 +60,11 @@ export class ShootingLocationController {
 
         return this.shootingLocationService.removeShootingLocation(locationId);
     }
-/*
+
     @Put(':locationId')
     addToFavourite(@Param('locationId') locationId: string): void {
+        console.log('hello from PUT')
         return this.shootingLocationService.addToFavourite(locationId);
     }
- */
+
 }

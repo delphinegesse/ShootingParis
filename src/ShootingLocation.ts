@@ -25,4 +25,6 @@ interface ShootingLocation {
     date_debut: Date
     annee_tournage: Date
     coord_x: number
+    favourite: boolean;
+
 }
