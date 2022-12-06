@@ -127,5 +127,7 @@ describe('ShootingLocationList', () => {
         location.removeFromFavourite('2019-1712');
         expect(location.isFavourite('2019-1712')).toEqual(false);
     });
-     */
+     *//**
 });
+**/
+
