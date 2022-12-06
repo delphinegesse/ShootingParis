@@ -1,5 +1,5 @@
 import {ShootingLocationService} from "./ShootingLocation.service";
-
+/**
 describe('ShootingLocationList', () => {
     const CigareAuMiel: ShootingLocation = {
         locationId: '2019-1712',
