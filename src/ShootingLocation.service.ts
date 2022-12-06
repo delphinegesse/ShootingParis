@@ -23,6 +23,10 @@ export class ShootingLocationService implements OnModuleInit{
         try {
             const data = await readFile('./src/dataset.json');
             this.listShootingLocation = JSON.parse(data.toString());
+            console.log(this.listShootingLocation[0])
+
+            console.log(this.listShootingLocation[0].nom_tournage)
+
         }
         catch(error){
             console.log('Err: ${error}');
@@ -54,29 +58,29 @@ export class ShootingLocationService implements OnModuleInit{
 
 
     addShootingLocation(shootingLocation: ShootingLocation): void {
-        if (!this.listShootingLocation.some((element) => shootingLocation.locationId === element.locationId)) {
+        if (!this.listShootingLocation.some((element) => shootingLocation.id_lieu === element.id_lieu)) {
   //          shootingLocation.favourite = false; // initialise to not favourite
             this.listShootingLocation.push(shootingLocation);
         }
     }
 
     getShootingLocation(id: string): ShootingLocation {
-        return <ShootingLocation>this.listShootingLocation.find(shootingLocation => shootingLocation.locationId === id);
+        return <ShootingLocation>this.listShootingLocation.find(shootingLocation => shootingLocation.id_lieu === id);
     }
 
-    getShootingLocationAt(address: string): ShootingLocation[] {
-        return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.address === address);
+    getShootingLocationAt(postalCode: string): ShootingLocation[] {
+        return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.ardt_lieu === postalCode);
     }//d'une adresse
 
     getShootingLocationsFrom(title: string): ShootingLocation[] {
-        return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.title === title).sort((a:ShootingLocation , b:ShootingLocation) => {
-            return a.locationId.localeCompare(b.locationId);
+        return this.getAllShootingLocations().filter(shootingLocation => shootingLocation.nom_tournage === title).sort((a:ShootingLocation , b:ShootingLocation) => {
+            return a.id_lieu.localeCompare(b.id_lieu);
         });
     }//d'un film
 
     getAllShootingLocations(): ShootingLocation[] {
         return this.listShootingLocation.sort((a:ShootingLocation , b:ShootingLocation) => {
-            return a.title.localeCompare(b.title);
+            return a.nom_tournage.localeCompare(b.nom_tournage);
         });
     }
 
@@ -85,7 +89,7 @@ export class ShootingLocationService implements OnModuleInit{
     }
 
     removeShootingLocation(locationId: string) {
-        this.listShootingLocation = this.listShootingLocation.filter((shootingLocation) => shootingLocation.locationId !== locationId);
+        this.listShootingLocation = this.listShootingLocation.filter((shootingLocation) => shootingLocation.id_lieu !== locationId);
     }
 /*
     isFavourite(id: string) {

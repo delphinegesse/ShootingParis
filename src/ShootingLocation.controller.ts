@@ -15,10 +15,15 @@ export class ShootingLocationController {
     }
 
     @Get()
-    getAllShootingLocations(@Query('titre') titre: string ): ShootingLocation[]{
+    getAllShootingLocations(@Query('titre') titre: string, @Query('postalCode') postalCode: string ): ShootingLocation[]{
         if(titre){
             return this.shootingLocationService.getShootingLocationsFrom(titre)
         }
+        if(postalCode){
+            return this.shootingLocationService.getShootingLocationAt(postalCode)
+        }
+
+        console.log('hello')
         return this.shootingLocationService.getAllShootingLocations()
     }
 
