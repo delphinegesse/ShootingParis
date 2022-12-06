@@ -4,6 +4,7 @@ import {map, Observable, tap} from "rxjs";
 import {AxiosResponse} from 'axios';
 import {readFile} from 'fs/promises';
 import {APIShootingLocation} from "./APIShootingLocation";
+import {ShootingLocationDto} from "./ShootingLocation.dto";
 
 
 @Injectable()
@@ -57,7 +58,7 @@ export class ShootingLocationService implements OnModuleInit{
     }
 
 
-    addShootingLocation(shootingLocation: ShootingLocation): void {
+    addShootingLocation(shootingLocation: ShootingLocationDto): void {
         if (!this.listShootingLocation.some((element) => shootingLocation.id_lieu === element.id_lieu)) {
   //          shootingLocation.favourite = false; // initialise to not favourite
             this.listShootingLocation.push(shootingLocation);
