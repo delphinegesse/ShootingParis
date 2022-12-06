@@ -1,4 +1,4 @@
-import {Body, Controller, Delete, Get, Param, Post, Put} from '@nestjs/common';
+import {Body, Controller, Delete, Get, Param, Post, Put, Query} from '@nestjs/common';
 import {ShootingLocationService} from "./ShootingLocation.service";
 import {ShootingLocationDto} from "./ShootingLocation.dto";
 
@@ -14,6 +14,15 @@ export class ShootingLocationController {
         return this.shootingLocationService.getShootingLocation(shootingLocationToCreate.locationId);
     }
 
+    @Get()
+    getAllShootingLocations(@Query('titre') titre: string ): ShootingLocation[]{
+        if(titre){
+            return this.shootingLocationService.getShootingLocationsFrom(titre)
+        }
+        return this.shootingLocationService.getAllShootingLocations()
+    }
+
+    /**
     @Get(':locationid')
     getShootingLocationByID(@Param('locationid') locationid: string): ShootingLocation {
         return this.shootingLocationService.getShootingLocation(locationid);
@@ -34,7 +43,7 @@ export class ShootingLocationController {
         }
         return this.shootingLocationService.getShootingLocationsFrom(title);
     }
-
+**/
     @Delete(':locationId')
     deleteShootingLocation(@Param('locationId') locationId: string): void {
         return this.shootingLocationService.removeShootingLocation(locationId);
