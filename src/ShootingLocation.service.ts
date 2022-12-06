@@ -16,7 +16,7 @@ export class ShootingLocationService implements OnModuleInit{
     async onModuleInit():Promise<void> {
         await Promise.all([this.loadShootingLocationFromAPI(), this.loadShootingLocationFromFile()])
 
-        console.log(this.listShootingLocation)
+        //console.log(this.listShootingLocation)
     }
 
     private async loadShootingLocationFromFile() : Promise<void>{
