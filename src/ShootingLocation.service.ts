@@ -23,9 +23,9 @@ export class ShootingLocationService implements OnModuleInit{
         try {
             const data = await readFile('./src/dataset.json');
             this.listShootingLocation = JSON.parse(data.toString());
-            console.log(this.listShootingLocation[0])
+            //console.log(this.listShootingLocation[0])
 
-            console.log(this.listShootingLocation[0].nom_tournage)
+            //console.log(this.listShootingLocation[0].nom_tournage)
 
         }
         catch(error){
@@ -57,11 +57,13 @@ export class ShootingLocationService implements OnModuleInit{
     }
 
 
-    addShootingLocation(shootingLocation: ShootingLocation): void {
-        if (!this.listShootingLocation.some((element) => shootingLocation.id_lieu === element.id_lieu)) {
+    addShootingLocation(shootingLocation: ShootingLocation): ShootingLocation {
+        if (!this.listShootingLocation.some((element) => shootingLocation.nom_tournage === element.nom_tournage)) {
   //          shootingLocation.favourite = false; // initialise to not favourite
+            console.log(shootingLocation)
             this.listShootingLocation.push(shootingLocation);
         }
+        return shootingLocation
     }
 
     getShootingLocation(id: string): ShootingLocation {
