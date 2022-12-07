@@ -1,0 +1,277 @@
+{
+	"info": {
+		"_postman_id": "8cd7c4de-9314-47c1-82c1-b1c57816e7d6",
+		"name": "ShootingParis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get a location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/shootingLocations/2019-1719",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"shootingLocations",
+						"2019-1719"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/shootingLocations",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"shootingLocations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all locations Online",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/shootingLocations",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"shootingLocations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get locations by address",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/shootingLocations?postalCode=75008",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"shootingLocations"
+					],
+					"query": [
+						{
+							"key": "postalCode",
+							"value": "75008"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get locations by address Online",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/shootingLocations?postalCode=75008",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"shootingLocations"
+					],
+					"query": [
+						{
+							"key": "postalCode",
+							"value": "75008"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get locations by movie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/shootingLocations?titre=CIGARE AU MIEL",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"shootingLocations"
+					],
+					"query": [
+						{
+							"key": "titre",
+							"value": "CIGARE AU MIEL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get locations by movie Online",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/shootingLocations?titre=CIGARE AU MIEL",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"shootingLocations"
+					],
+					"query": [
+						{
+							"key": "titre",
+							"value": "CIGARE AU MIEL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create location",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"coord_y\": 48.87219487,\r\n    \"type_tournage\": \"LongGGGGGGGGGGGGGGGGGGGGGGGGGG métrage\",\r\n    \"nom_producteur\": \"ELIPH PRODUCTIONS\",\r\n    \"date_fin\": \"2019-12-12\",\r\n    \"geo_point_2d\": [\r\n      48.87219487147879,\r\n      2.303550627818585\r\n    ],\r\n    \"nom_tournage\": \"CIGARE AU miel\",\r\n    \"ardt_lieu\": \"75008\",\r\n    \"geo_shape\": {\r\n      \"coordinates\": [\r\n        2.303550627818585,\r\n        48.87219487147879\r\n      ],\r\n      \"type\": \"Point\"\r\n    },\r\n    \"id_lieu\": \"2019-1712\",\r\n    \"nom_realisateur\": \"Madame KAMIR AÏNOUZ\",\r\n    \"adresse_lieu\": \"7 rue de berri, 75008 paris\",\r\n    \"date_debut\": \"2019-12-12\",\r\n    \"annee_tournage\": \"2019\",\r\n    \"coord_x\": 2.30355063\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url2}}/shootingLocations",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"shootingLocations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create location Online",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"coord_y\": 48.87219487,\r\n    \"type_tournage\": \"LongGGGGGGGGGGGGGGGGGGGGGGGGGG métrage\",\r\n    \"nom_producteur\": \"ELIPH PRODUCTIONS\",\r\n    \"date_fin\": \"2019-12-12\",\r\n    \"geo_point_2d\": [\r\n      48.87219487147879,\r\n      2.303550627818585\r\n    ],\r\n    \"nom_tournage\": \"CIGARE AU miel\",\r\n    \"ardt_lieu\": \"75008\",\r\n    \"geo_shape\": {\r\n      \"coordinates\": [\r\n        2.303550627818585,\r\n        48.87219487147879\r\n      ],\r\n      \"type\": \"Point\"\r\n    },\r\n    \"id_lieu\": \"2019-1712\",\r\n    \"nom_realisateur\": \"Madame KAMIR AÏNOUZ\",\r\n    \"adresse_lieu\": \"7 rue de berri, 75008 paris\",\r\n    \"date_debut\": \"2019-12-12\",\r\n    \"annee_tournage\": \"2019\",\r\n    \"coord_x\": 2.30355063\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/shootingLocations",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"shootingLocations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a location",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/shootingLocations/2019-1712",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"shootingLocations",
+						"2019-1712"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a location Online",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/shootingLocations/2019-1712",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"shootingLocations",
+						"2019-1712"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put fav",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/shootingLocations/2019-1719",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"shootingLocations",
+						"2019-1719"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put fav Online",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/shootingLocations/2019-1719",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"shootingLocations",
+						"2019-1719"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -4,10 +4,15 @@ import {ShootingLocationDto} from "./ShootingLocation.dto";
 
 @Controller('/shootingLocations')
 export class ShootingLocationController {
+
     constructor(
         private readonly shootingLocationService: ShootingLocationService,
     ) {}
 
+    /**
+     * Request POST that creates a shootingLocation in the list
+     * @param shootingLocationToCreate
+     */
     @Post()
     createShootingLocation(@Body() shootingLocationToCreate: ShootingLocation): ShootingLocation {
         this.shootingLocationService.addShootingLocation(shootingLocationToCreate);
@@ -16,44 +21,35 @@ export class ShootingLocationController {
         return this.shootingLocationService.getShootingLocation(shootingLocationToCreate.id_lieu);
     }
 
+    /**
+     * Request GET that returns a list of shootingLocations according to the parameter
+     * @param titre
+     * @param postalCode
+     */
     @Get()
     getAllShootingLocations(@Query('titre') titre: string, @Query('postalCode') postalCode: string ): ShootingLocation[]{
         if(titre){
-            console.log('hello from titre')
             return this.shootingLocationService.getShootingLocationsFrom(titre)
         }
         if(postalCode){
-            console.log('hello from postalCode')
             return this.shootingLocationService.getShootingLocationAt(postalCode)
-
         }
-
-        console.log('hello all')
         return this.shootingLocationService.getAllShootingLocations()
     }
 
     /**
+     * Request GET that returns a specific shootingLocation
+     * @param locationid
+     */
     @Get(':locationid')
     getShootingLocationByID(@Param('locationid') locationid: string): ShootingLocation {
         return this.shootingLocationService.getShootingLocation(locationid);
     }
 
-    @Get(':address')
-    getShootingLocationByAddress(@Param('address') address: string): ShootingLocation[] {
-        if(address===undefined){
-            return this.shootingLocationService.getAllShootingLocations();
-        }
-        return this.shootingLocationService.getShootingLocationAt(address);
-    }
-
-    @Get(':title')
-    getShootingLocationByMovie(@Param('title') title: string): ShootingLocation[] {
-        if(title===undefined){
-            return this.shootingLocationService.getAllShootingLocations();
-        }
-        return this.shootingLocationService.getShootingLocationsFrom(title);
-    }
-**/
+    /**
+     * Request DELETE that remove a specific shootingLocation
+     * @param locationId
+     */
     @Delete(':locationId')
     deleteShootingLocation(@Param('locationId') locationId: string): void {
         console.log('hello from DELETE')
@@ -61,7 +57,10 @@ export class ShootingLocationController {
         return this.shootingLocationService.removeShootingLocation(locationId);
     }
 
-
+    /**
+     * Request PUT that puts a shootingLocation as favorite
+     * @param locationId
+     */
     @Put(':locationId')
     addToFavourite(@Param('locationId') locationId: string): void {
         console.log('hello from PUT')
