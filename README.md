@@ -7,6 +7,8 @@ Project for web and android development classes
 In this project we want to be able to access a database handling a record of movies' shooting places in the city of Paris.
 This is the web part of the project.
 
+***Warning :  the branch to consult is the*** _Simon_adds_ ***branch !***
+
 ## Resources
 
 We used the data that can be found on the following link:

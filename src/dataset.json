@@ -1,253 +1,752 @@
 [
   {
-    "coord_y": 48.87219487,
-    "type_tournage": "Long métrage",
-    "nom_producteur": "ELIPH PRODUCTIONS",
-    "date_fin": "2019-12-12",
-    "geo_point_2d": [
-      48.87219487147879,
-      2.303550627818585
-    ],
-    "nom_tournage": "CIGARE AU MIEL",
+    "coord_x": 2.319672,
+    "coord_y": 48.875605,
+    "id_lieu": "2016-1",
+    "date_fin": "2016-03-31",
     "ardt_lieu": "75008",
     "geo_shape": {
+      "type": "Point",
       "coordinates": [
-        2.303550627818585,
-        48.87219487147879
-      ],
-      "type": "Point"
+        2.319672000275254,
+        48.87560500042975
+      ]
     },
-    "id_lieu": "2019-1712",
-    "nom_realisateur": "Madame KAMIR AÏNOUZ",
-    "adresse_lieu": "7 rue de berri, 75008 paris",
-    "date_debut": "2019-12-12",
-    "annee_tournage": "2019",
-    "coord_x": 2.30355063
+    "date_debut": "2016-03-31",
+    "adresse_lieu": "12  PLACE  SAINT AUGUSTIN",
+    "geo_point_2d": [
+      48.87560500042975,
+      2.319672000275254
+    ],
+    "nom_tournage": "COUP DE FOUDRE A JAIPUR",
+    "type_tournage": "Téléfilm",
+    "annee_tournage": "2016",
+    "nom_producteur": "BIG BAND STORY",
+    "nom_realisateur": "ARNAULD MERCADIER"
   },
   {
-    "coord_y": 48.89401073,
-    "type_tournage": "Long métrage",
-    "nom_producteur": "AXEL FILMS PRODUCTION",
-    "date_fin": "2019-12-09",
-    "geo_point_2d": [
-      48.89401072715022,
-      2.354120069589919
-    ],
-    "nom_tournage": "30 Jours Max",
+    "coord_x": 2.346353,
+    "coord_y": 48.889382,
+    "id_lieu": "2016-2",
+    "date_fin": "2016-10-06",
     "ardt_lieu": "75018",
     "geo_shape": {
+      "type": "Point",
       "coordinates": [
-        2.354120069589919,
-        48.89401072715022
-      ],
-      "type": "Point"
+        2.346352999563902,
+        48.889381999715646
+      ]
     },
-    "id_lieu": "2019-1719",
-    "nom_realisateur": "Tarek BOUDALI",
-    "adresse_lieu": "rue rené clair, 75018 paris",
-    "date_debut": "2019-12-09",
-    "annee_tournage": "2019",
-    "coord_x": 2.35412007
-  },
-  {
-    "coord_y": 48.857298,
+    "date_debut": "2016-10-05",
+    "adresse_lieu": "34  RUE  RAMEY",
+    "geo_point_2d": [
+      48.889381999715646,
+      2.346352999563902
+    ],
+    "nom_tournage": "ALICE NEVERS, LE JUGE EST UNE FEMME/84 ET 85",
     "type_tournage": "Série TV",
-    "nom_producteur": "KANZAMAN FRANCE",
-    "date_fin": "2016-12-11",
-    "geo_point_2d": [
-      48.85729799967261,
-      2.366075000665597
-    ],
-    "nom_tournage": "LIANG SHENG",
-    "ardt_lieu": "75003",
-    "geo_shape": {
-      "coordinates": [
-        2.366075000665597,
-        48.85729799967261
-      ],
-      "type": "Point"
-    },
-    "id_lieu": "2016-605",
-    "nom_realisateur": "LIU CHUN-CHIEN",
-    "adresse_lieu": "RUE  DU BEARN",
-    "date_debut": "2016-12-11",
     "annee_tournage": "2016",
-    "coord_x": 2.366075
+    "nom_producteur": "EGO PRODUCTION",
+    "nom_realisateur": "ERIC LE ROUX"
   },
   {
-
-    "coord_y": 48.853077,
+    "coord_x": 2.2914149999999998,
+    "coord_y": 48.87137,
+    "id_lieu": "2016-3",
+    "date_fin": "2016-10-29",
+    "ardt_lieu": "75016",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.291414999650708,
+        48.87136999960562
+      ]
+    },
+    "date_debut": "2016-10-29",
+    "adresse_lieu": "5  RUE  DU DOME",
+    "geo_point_2d": [
+      48.87136999960562,
+      2.291414999650708
+    ],
+    "nom_tournage": "MUNCH",
     "type_tournage": "Série TV",
-    "nom_producteur": "SON ET LUMIERE",
-    "date_fin": "2016-05-25",
-    "geo_point_2d": [
-      48.853076999848284,
-      2.407354000642449
-    ],
-    "nom_tournage": "ENGRENAGES/SAISON 6/N° 1 A 6",
-    "ardt_lieu": "75020",
-    "geo_shape": {
-      "coordinates": [
-        2.407354000642449,
-        48.853076999848284
-      ],
-      "type": "Point"
-    },
-    "id_lieu": "2016-610",
-    "nom_realisateur": "FREDERIC JARDIN",
-    "adresse_lieu": "1  RUE  FERDINAND GAMBON",
-    "date_debut": "2016-05-25",
     "annee_tournage": "2016",
-    "coord_x": 2.4073539999999998
+    "nom_producteur": "EXILENE FILMS",
+    "nom_realisateur": "NICOLAS GUICHETEAU"
   },
   {
-    "coord_y": 48.883368,
-    "type_tournage": "Long métrage",
-    "nom_producteur": "ICI ET LA PRODUCTIONS",
-    "date_fin": "2016-05-13",
-    "geo_point_2d": [
-      48.88336799984105,
-      2.339612999826886
-    ],
-    "nom_tournage": "FLORA63",
+    "coord_x": 2.3359579999999998,
+    "coord_y": 48.889415,
+    "id_lieu": "2016-4",
+    "date_fin": "2016-11-02",
     "ardt_lieu": "75018",
     "geo_shape": {
+      "type": "Point",
       "coordinates": [
-        2.339612999826886,
-        48.88336799984105
-      ],
-      "type": "Point"
+        2.335957999344124,
+        48.889414999750244
+      ]
     },
-    "id_lieu": "2016-617",
-    "nom_realisateur": "STEPHANE ROBELIN",
-    "adresse_lieu": "RUE  DES MARTYRS",
-    "date_debut": "2016-05-13",
-    "annee_tournage": "2016",
-    "coord_x": 2.339613
-  },
-  {
-    "coord_y": 48.870697,
-    "type_tournage": "Long métrage",
-    "nom_producteur": "PETIT FILM",
-    "date_fin": "2016-09-05",
+    "date_debut": "2016-11-02",
+    "adresse_lieu": "AVENUE  CAULAINCOURT",
     "geo_point_2d": [
-      48.87069700026003,
-      2.350574000185725
+      48.889414999750244,
+      2.335957999344124
     ],
-    "nom_tournage": "DIANE A LES EPAULES",
-    "ardt_lieu": "75010",
-    "geo_shape": {
-      "coordinates": [
-        2.350574000185725,
-        48.87069700026003
-      ],
-      "type": "Point"
-    },
-    "id_lieu": "2016-620",
-    "nom_realisateur": "FABIEN GORGEART",
-    "adresse_lieu": "3  IMPASSE  BONNE NOUVELLE",
-    "date_debut": "2016-09-05",
-    "annee_tournage": "2016",
-    "coord_x": 2.350574
-  },
-  {
-    "coord_y": 48.847329,
-    "type_tournage": "Long métrage",
-    "nom_producteur": "LES PRODUCTIONS DU TRESOR",
-    "date_fin": "2016-02-18",
-    "geo_point_2d": [
-      48.84732899971317,
-      2.347565000650523
-    ],
-    "nom_tournage": "GC5",
-    "ardt_lieu": "75005",
-    "geo_shape": {
-      "coordinates": [
-        2.347565000650523,
-        48.84732899971317
-      ],
-      "type": "Point"
-    },
-    "id_lieu": "2016-638",
-    "nom_realisateur": "GUILLAUME CANET",
-    "adresse_lieu": "PLACE  LARUE",
-    "date_debut": "2016-02-18",
-    "annee_tournage": "2016",
-    "coord_x": 2.347565
-  },
-  {
-    "coord_y": 48.868113,
-    "type_tournage": "Long métrage",
-    "nom_producteur": "LES FILMS MANUEL MUNZ",
-    "date_fin": "2016-12-09",
-    "geo_point_2d": [
-      48.86811300034083,
-      2.329704999637536
-    ],
-    "nom_tournage": "CARBONE",
-    "ardt_lieu": "75001",
-    "geo_shape": {
-      "coordinates": [
-        2.329704999637536,
-        48.86811300034083
-      ],
-      "type": "Point"
-    },
-    "id_lieu": "2016-644",
-    "nom_realisateur": "OLIVIER MARCHAL",
-    "adresse_lieu": "PLACE  VENDOME",
-    "date_debut": "2016-12-09",
-    "annee_tournage": "2016",
-    "coord_x": 2.329705
-  },
-  {
-    "coord_y": 48.876556,
-    "type_tournage": "Long métrage",
-    "nom_producteur": "WY PRODUCTIONS",
-    "date_fin": "2016-03-10",
-    "geo_point_2d": [
-      48.87655600030569,
-      2.403746000196592
-    ],
-    "nom_tournage": "IRIS/EX CHAOS",
-    "ardt_lieu": "75019",
-    "geo_shape": {
-      "coordinates": [
-        2.403746000196592,
-        48.87655600030569
-      ],
-      "type": "Point"
-    },
-    "id_lieu": "2016-659",
-    "nom_realisateur": "JALIL LESPERT",
-    "adresse_lieu": "307 AU 317  RUE  DE BELLEVILLE",
-    "date_debut": "2016-03-10",
-    "annee_tournage": "2016",
-    "coord_x": 2.403746
-  },
-  {
-    "coord_y": 48.852279,
+    "nom_tournage": "LA LICORNE",
     "type_tournage": "Série TV",
-    "nom_producteur": "FEDERATION ENTERTAINMENT",
-    "date_fin": "2016-03-30",
+    "annee_tournage": "2016",
+    "nom_producteur": "DELANTE FILMS",
+    "nom_realisateur": "AVRIL BESSON"
+  },
+  {
+    "coord_x": 2.377464,
+    "coord_y": 48.841379,
+    "id_lieu": "2016-5",
+    "date_fin": "2016-02-15",
+    "ardt_lieu": "75012",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.377463999777783,
+        48.84137899975249
+      ]
+    },
+    "date_debut": "2016-02-15",
+    "adresse_lieu": "RUE  DE BERCY",
     "geo_point_2d": [
-      48.852278999709455,
-      2.351269000165312
+      48.84137899975249,
+      2.377463999777783
     ],
-    "nom_tournage": "THE COLLECTION",
+    "nom_tournage": "VENERATION",
+    "type_tournage": "Série TV",
+    "annee_tournage": "2016",
+    "nom_producteur": "CMP MOVIES",
+    "nom_realisateur": "MARJORY DEJARDIN"
+  },
+  {
+    "coord_x": 2.334367,
+    "coord_y": 48.822372,
+    "id_lieu": "2016-6",
+    "date_fin": "2016-06-28",
+    "ardt_lieu": "75014",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.334366999409095,
+        48.82237200034331
+      ]
+    },
+    "date_debut": "2016-06-28",
+    "adresse_lieu": "PARC  MONTSOURIS",
+    "geo_point_2d": [
+      48.82237200034331,
+      2.334366999409095
+    ],
+    "nom_tournage": "JOSEPHINE ANGE GARDIEN/EPISODE 82",
+    "type_tournage": "Série TV",
+    "annee_tournage": "2016",
+    "nom_producteur": "DEMD PRODUCTIONS",
+    "nom_realisateur": "PHILIPPE PROTEAU"
+  },
+  {
+    "coord_x": 2.364364,
+    "coord_y": 48.853687,
+    "id_lieu": "2016-7",
+    "date_fin": "2016-08-05",
     "ardt_lieu": "75004",
     "geo_shape": {
+      "type": "Point",
       "coordinates": [
-        2.351269000165312,
-        48.852278999709455
-      ],
-      "type": "Point"
+        2.3643639994942403,
+        48.85368700030392
+      ]
     },
-    "id_lieu": "2016-675",
-    "nom_realisateur": "DEARBHLA WALSH",
-    "adresse_lieu": "SQUARE  JEAN XXIII",
-    "date_debut": "2016-03-30",
+    "date_debut": "2016-08-05",
+    "adresse_lieu": "25  RUE  BEAUTREILLIS",
+    "geo_point_2d": [
+      48.85368700030392,
+      2.3643639994942403
+    ],
+    "nom_tournage": "RED OAKS",
+    "type_tournage": "Série TV",
     "annee_tournage": "2016",
-    "coord_x": 2.351269
+    "nom_producteur": "FIRSTEP",
+    "nom_realisateur": "HALL HARTLEY"
+  },
+  {
+    "coord_x": 2.361065,
+    "coord_y": 48.866546,
+    "id_lieu": "2016-8",
+    "date_fin": "2016-01-16",
+    "ardt_lieu": "75003",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.361065000111975,
+        48.866546000348194
+      ]
+    },
+    "date_debut": "2016-01-16",
+    "adresse_lieu": "RUE  DE TURBIGO/RUE DU TEMPLE (CROISEMENT)",
+    "geo_point_2d": [
+      48.866546000348194,
+      2.361065000111975
+    ],
+    "nom_tournage": "DEVLET AILE VE BEN",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "ACORT",
+    "nom_realisateur": "ÖZGÜR YILDIZ"
+  },
+  {
+    "coord_x": 2.344954,
+    "coord_y": 48.882015,
+    "id_lieu": "2016-9",
+    "date_fin": "2016-02-24",
+    "ardt_lieu": "75009",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.344954000228533,
+        48.882015000267984
+      ]
+    },
+    "date_debut": "2016-02-24",
+    "adresse_lieu": "2  PLACE  D'ANVERS/LE GRAND COMPTOIR D'ANVERS",
+    "geo_point_2d": [
+      48.882015000267984,
+      2.344954000228533
+    ],
+    "nom_tournage": "SI J'ETAIS UN HOMME",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "CURIOSA FILMS",
+    "nom_realisateur": "AUDREY DANA"
+  },
+  {
+    "coord_x": 2.338298,
+    "coord_y": 48.8891,
+    "id_lieu": "2016-10",
+    "date_fin": "2016-02-25",
+    "ardt_lieu": "75018",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.338297999976141,
+        48.88910000018267
+      ]
+    },
+    "date_debut": "2016-02-25",
+    "adresse_lieu": "PLACE  CONSTANTIN PECQUEUR",
+    "geo_point_2d": [
+      48.88910000018267,
+      2.338297999976141
+    ],
+    "nom_tournage": "BEFIKRE",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "FIRSTEP",
+    "nom_realisateur": "ADITYA CHOPRA"
+  },
+  {
+    "coord_x": 2.362289,
+    "coord_y": 48.856067,
+    "id_lieu": "2016-11",
+    "date_fin": "2016-02-26",
+    "ardt_lieu": "75004",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.362288999568085,
+        48.856066999936495
+      ]
+    },
+    "date_debut": "2016-02-26",
+    "adresse_lieu": "RUE  DE SEVIGNE",
+    "geo_point_2d": [
+      48.856066999936495,
+      2.362288999568085
+    ],
+    "nom_tournage": "BEFIKRE",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "FIRSTEP",
+    "nom_realisateur": "ADITYA CHOPRA"
+  },
+  {
+    "coord_x": 2.355315,
+    "coord_y": 48.855335,
+    "id_lieu": "2016-12",
+    "date_fin": "2016-02-26",
+    "ardt_lieu": "75004",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.355315000648897,
+        48.85533500042825
+      ]
+    },
+    "date_debut": "2016-02-26",
+    "adresse_lieu": "RUE  DES BARRES",
+    "geo_point_2d": [
+      48.85533500042825,
+      2.355315000648897
+    ],
+    "nom_tournage": "BEFIKRE",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "FIRSTEP",
+    "nom_realisateur": "ADITYA CHOPRA"
+  },
+  {
+    "coord_x": 2.3753729999999997,
+    "coord_y": 48.848106,
+    "id_lieu": "2016-13",
+    "date_fin": "2016-03-17",
+    "ardt_lieu": "75012",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.3753729995351,
+        48.84810600023224
+      ]
+    },
+    "date_debut": "2016-03-17",
+    "adresse_lieu": "MARCHE*  BEAUVAU",
+    "geo_point_2d": [
+      48.84810600023224,
+      2.3753729995351
+    ],
+    "nom_tournage": "DEMAIN ET TOUS LES AUTRES JOURS (2)",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "F COMME FILM",
+    "nom_realisateur": "NOVEMIE LVOVSKY"
+  },
+  {
+    "coord_x": 2.343527,
+    "coord_y": 48.849931,
+    "id_lieu": "2016-14",
+    "date_fin": "2016-04-12",
+    "ardt_lieu": "75005",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.343526999956056,
+        48.84993099965928
+      ]
+    },
+    "date_debut": "2016-04-12",
+    "adresse_lieu": "49  RUE  DES ECOLES (LE BALZAC)",
+    "geo_point_2d": [
+      48.84993099965928,
+      2.343526999956056
+    ],
+    "nom_tournage": "LA SAGE FEMME",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "CURIOSA FILMS",
+    "nom_realisateur": "MARTIN PROVOST"
+  },
+  {
+    "coord_x": 2.304772,
+    "coord_y": 48.854395,
+    "id_lieu": "2016-15",
+    "date_fin": "2016-04-13",
+    "ardt_lieu": "75007",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.304771999661774,
+        48.854394999734865
+      ]
+    },
+    "date_debut": "2016-04-13",
+    "adresse_lieu": "PARC  DU CHAMP DE MARS",
+    "geo_point_2d": [
+      48.854394999734865,
+      2.304771999661774
+    ],
+    "nom_tournage": "LOLA PATER",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "BLUE MONDAY PRODUCTIONS",
+    "nom_realisateur": "NADIR MOKNECHE"
+  },
+  {
+    "coord_x": 2.353281,
+    "coord_y": 48.835179,
+    "id_lieu": "2016-16",
+    "date_fin": "2016-04-20",
+    "ardt_lieu": "75013",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.353280999416495,
+        48.835179000141615
+      ]
+    },
+    "date_debut": "2016-04-20",
+    "adresse_lieu": "41/47  AVENUE  DES GOBELINS",
+    "geo_point_2d": [
+      48.835179000141615,
+      2.353280999416495
+    ],
+    "nom_tournage": "MARIE FRANCINE",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "RECTANGLE PRODUCTIONS",
+    "nom_realisateur": "VALERIE LEMERCIER"
+  },
+  {
+    "coord_x": 2.303314,
+    "coord_y": 48.864884,
+    "id_lieu": "2016-17",
+    "date_fin": "2016-05-17",
+    "ardt_lieu": "75008",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.303313999808295,
+        48.864883999623714
+      ]
+    },
+    "date_debut": "2016-05-17",
+    "adresse_lieu": "COURS  LA REINE",
+    "geo_point_2d": [
+      48.864883999623714,
+      2.303313999808295
+    ],
+    "nom_tournage": "BEFIKRE",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "FIRSTEP",
+    "nom_realisateur": "ADITYA CHOPRA"
+  },
+  {
+    "coord_x": 2.344292,
+    "coord_y": 48.880017,
+    "id_lieu": "2016-18",
+    "date_fin": "2016-06-24",
+    "ardt_lieu": "75009",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.344291999723934,
+        48.88001699965551
+      ]
+    },
+    "date_debut": "2016-06-24",
+    "adresse_lieu": "RUE  TURGOT/CONDORCET",
+    "geo_point_2d": [
+      48.88001699965551,
+      2.344291999723934
+    ],
+    "nom_tournage": "EMBRASSE MOI",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "NOLITA CINEMA",
+    "nom_realisateur": "CYPRIEN VIAL"
+  },
+  {
+    "coord_x": 2.301948,
+    "coord_y": 48.884206,
+    "id_lieu": "2016-19",
+    "date_fin": "2016-06-24",
+    "ardt_lieu": "75017",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.301948000518106,
+        48.8842059998838
+      ]
+    },
+    "date_debut": "2016-06-24",
+    "adresse_lieu": "87  RUE  DE VILLIERS",
+    "geo_point_2d": [
+      48.8842059998838,
+      2.301948000518106
+    ],
+    "nom_tournage": "SOUS LE MEME TOIT",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "EUROPA CORP",
+    "nom_realisateur": "DOMINIQUE FARRUGIA"
+  },
+  {
+    "coord_x": 2.260025,
+    "coord_y": 48.838195,
+    "id_lieu": "2016-20",
+    "date_fin": "2016-07-13",
+    "ardt_lieu": "75016",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.260024999813365,
+        48.83819500029723
+      ]
+    },
+    "date_debut": "2016-07-13",
+    "adresse_lieu": "SQUARE  OZANAM/18 RUE STANISLAS",
+    "geo_point_2d": [
+      48.83819500029723,
+      2.260024999813365
+    ],
+    "nom_tournage": "SOUS LE MEME TOIT",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "EUROPA CORP",
+    "nom_realisateur": "DOMINIQUE FARRUGIA"
+  },
+  {
+    "coord_x": 2.386248,
+    "coord_y": 48.874598,
+    "id_lieu": "2016-21",
+    "date_fin": "2016-07-17",
+    "ardt_lieu": "75019",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.386248000536253,
+        48.87459800016205
+      ]
+    },
+    "date_debut": "2016-07-17",
+    "adresse_lieu": "2  RUE  MELINGUE",
+    "geo_point_2d": [
+      48.87459800016205,
+      2.386248000536253
+    ],
+    "nom_tournage": "L'AMANT D'UN JOUR",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "SBS FILMS",
+    "nom_realisateur": "PHILIPPE GARREL"
+  },
+  {
+    "coord_x": 2.352176,
+    "coord_y": 48.843955,
+    "id_lieu": "2016-22",
+    "date_fin": "2016-07-22",
+    "ardt_lieu": "75005",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.352176000181684,
+        48.84395499966077
+      ]
+    },
+    "date_debut": "2016-07-22",
+    "adresse_lieu": "RUE  MONGE",
+    "geo_point_2d": [
+      48.84395499966077,
+      2.352176000181684
+    ],
+    "nom_tournage": "EMBRASSE MOI",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "NOLITA CINEMA",
+    "nom_realisateur": "CYPRIEN VIAL"
+  },
+  {
+    "coord_x": 2.396264,
+    "coord_y": 48.882512,
+    "id_lieu": "2016-23",
+    "date_fin": "2016-07-24",
+    "ardt_lieu": "75019",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.396264000223807,
+        48.88251199965554
+      ]
+    },
+    "date_debut": "2016-07-24",
+    "adresse_lieu": "BOULEVARD  SERRURIER (NIVEAU METRO TELEGRAPHE)",
+    "geo_point_2d": [
+      48.88251199965554,
+      2.396264000223807
+    ],
+    "nom_tournage": "L'AMANT D'UN JOUR",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "SBS FILMS",
+    "nom_realisateur": "PHILIPPE GARREL"
+  },
+  {
+    "coord_x": 2.3309860000000002,
+    "coord_y": 48.858874,
+    "id_lieu": "2016-24",
+    "date_fin": "2016-08-16",
+    "ardt_lieu": "75007",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.330986000342913,
+        48.85887400008855
+      ]
+    },
+    "date_debut": "2016-08-16",
+    "adresse_lieu": "QUAI  VOLTAIRE",
+    "geo_point_2d": [
+      48.85887400008855,
+      2.330986000342913
+    ],
+    "nom_tournage": "GANGSTERDAM",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "LES PRODUCTIONS DU TRESOR",
+    "nom_realisateur": "ROMAIN LEVY"
+  },
+  {
+    "coord_x": 2.411644,
+    "coord_y": 48.859198,
+    "id_lieu": "2016-25",
+    "date_fin": "2016-08-24",
+    "ardt_lieu": "75020",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.41164399956211,
+        48.8591979997469
+      ]
+    },
+    "date_debut": "2016-08-24",
+    "adresse_lieu": "TERRAIN*  N°1/30 RUE LOUIS LUMIERE",
+    "geo_point_2d": [
+      48.8591979997469,
+      2.41164399956211
+    ],
+    "nom_tournage": "LES FILLES DE REIMS",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "LES FILMS VELVET",
+    "nom_realisateur": "JULIEN HALLARD"
+  },
+  {
+    "coord_x": 2.326535,
+    "coord_y": 48.8594,
+    "id_lieu": "2016-26",
+    "date_fin": "2016-08-25",
+    "ardt_lieu": "75007",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.32653499947562,
+        48.859399999575544
+      ]
+    },
+    "date_debut": "2016-08-25",
+    "adresse_lieu": "2 AU 59  RUE  DE LILLE",
+    "geo_point_2d": [
+      48.859399999575544,
+      2.32653499947562
+    ],
+    "nom_tournage": "THIRST STREET",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "IN VIVO FILMS",
+    "nom_realisateur": "NATHAN SILVER"
+  },
+  {
+    "coord_x": 2.289295,
+    "coord_y": 48.875244,
+    "id_lieu": "2016-27",
+    "date_fin": "2016-08-30",
+    "ardt_lieu": "75016",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.289294999579753,
+        48.87524399972337
+      ]
+    },
+    "date_debut": "2016-08-29",
+    "adresse_lieu": "43  AVENUE  DE LA GRANDE ARMEE",
+    "geo_point_2d": [
+      48.87524399972337,
+      2.289294999579753
+    ],
+    "nom_tournage": "MARIAGE BLANC",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "AXEL FILMS",
+    "nom_realisateur": "TAREK BOUDALI"
+  },
+  {
+    "coord_x": 2.340424,
+    "coord_y": 48.890213,
+    "id_lieu": "2016-28",
+    "date_fin": "2016-09-02",
+    "ardt_lieu": "75018",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.340423999844478,
+        48.89021299967231
+      ]
+    },
+    "date_debut": "2016-09-02",
+    "adresse_lieu": "42  RUE  DES SAULES",
+    "geo_point_2d": [
+      48.89021299967231,
+      2.340423999844478
+    ],
+    "nom_tournage": "STARS 80 LA SUITE",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "LA PETITE REINE",
+    "nom_realisateur": "THOMAS LANGMANN"
+  },
+  {
+    "coord_x": 2.356179,
+    "coord_y": 48.857288,
+    "id_lieu": "2016-29",
+    "date_fin": "2016-09-13",
+    "ardt_lieu": "75004",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.35617899970622,
+        48.85728800004379
+      ]
+    },
+    "date_debut": "2016-09-13",
+    "adresse_lieu": "RUE  DU BOURG TIBOURG",
+    "geo_point_2d": [
+      48.85728800004379,
+      2.35617899970622
+    ],
+    "nom_tournage": "MARIAGE BLANC",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "AXEL FILMS",
+    "nom_realisateur": "TAREK BOUDALI"
+  },
+  {
+    "coord_x": 2.288843,
+    "coord_y": 48.851416,
+    "id_lieu": "2016-30",
+    "date_fin": "2016-09-28",
+    "ardt_lieu": "75015",
+    "geo_shape": {
+      "type": "Point",
+      "coordinates": [
+        2.28884300010465,
+        48.8514160000748
+      ]
+    },
+    "date_debut": "2016-09-28",
+    "adresse_lieu": "7  RUE  SEXTIUS MICHEL",
+    "geo_point_2d": [
+      48.8514160000748,
+      2.28884300010465
+    ],
+    "nom_tournage": "JUST DIVORCED",
+    "type_tournage": "Long métrage",
+    "annee_tournage": "2016",
+    "nom_producteur": "LES IMPRODUCTIBLES",
+    "nom_realisateur": "MAXIME GOVARE"
   }
 ]
