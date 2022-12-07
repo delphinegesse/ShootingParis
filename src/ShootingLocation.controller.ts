@@ -1,6 +1,5 @@
 import {Body, Controller, Delete, Get, Param, Post, Put, Query} from '@nestjs/common';
 import {ShootingLocationService} from "./ShootingLocation.service";
-import {ShootingLocationDto} from "./ShootingLocation.dto";
 
 @Controller('/shootingLocations')
 export class ShootingLocationController {

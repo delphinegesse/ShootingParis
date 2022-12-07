@@ -42,6 +42,8 @@ You just need to implement the environment by creating 2 variables:
 
 ##  Note to teacher
 
+We succeeded to implement the requests needed. The file **'ShootingLocation.service.test.ts'** allowed us to check our functions on the IDE. Eventually, it failed to work when we used Postman, so we decided to mute it using comments.
+
 We succeeded to implement a working API in localhost, and on the web, using [Clever Cloud](https://www.clever-cloud.com/en/).
 You can check it following the process described at the end of the previous part.
 
