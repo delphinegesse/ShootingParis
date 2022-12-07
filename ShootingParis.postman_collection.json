@@ -132,7 +132,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/shootingLocations?titre=CIGARE AU MIEL",
+					"raw": "{{url}}/shootingLocations?titre=JUST DIVORCED",
 					"host": [
 						"{{url}}"
 					],
@@ -142,7 +142,7 @@
 					"query": [
 						{
 							"key": "titre",
-							"value": "CIGARE AU MIEL"
+							"value": "JUST DIVORCED"
 						}
 					]
 				}
@@ -225,13 +225,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/shootingLocations/2019-1712",
+					"raw": "{{url}}/shootingLocations/2016-29",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"shootingLocations",
-						"2019-1712"
+						"2016-29"
 					]
 				}
 			},
@@ -261,13 +261,13 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/shootingLocations/2019-1719",
+					"raw": "{{url}}/shootingLocations/2016-29",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"shootingLocations",
-						"2019-1719"
+						"2016-29"
 					]
 				}
 			},
